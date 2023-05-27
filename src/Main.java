@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        MCHS mchs=MCHS.getInstans();
-        Militia militia=Militia.getInstans();
+        MCHS mchs = MCHS.getInstans();
+        Militia militia = Militia.getInstans();
         Observer life = new Life();
-        Observer mtc=new MTC();
-        Observer beltelecom=new Beltelecom();
-        Observer velcome= new Velcome();
+        Observer mtc = new MTC();
+        Observer beltelecom = new Beltelecom();
+        Observer velcome = new Velcome();
 
         mchs.addObserver(life);
         mchs.addObserver(mtc);

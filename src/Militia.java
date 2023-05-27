@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Militia implements EventProdyser {
     private static Militia militia;
+
     Observer observer;
     private List<Observer> observerList = new ArrayList<>();
     private static String massageMilitia1 = "МВД.Осторожно при Проведении праздников";
